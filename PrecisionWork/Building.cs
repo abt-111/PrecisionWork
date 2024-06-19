@@ -1,6 +1,4 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
-
-namespace PrecisionWork
+﻿namespace PrecisionWork
 {
     internal class Building
     {
@@ -25,7 +23,7 @@ namespace PrecisionWork
 
         public float GetFloorMaxSize()
         {
-            return _size / _floorCount;
+            return (float)_size / _floorCount;
         }
     }
 }
